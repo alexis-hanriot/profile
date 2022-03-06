@@ -1,0 +1,166 @@
+body {
+	background-color: rgb(250, 250, 250);
+	color: black;
+	font-family: 'Roboto Serif', sans-serif;
+}
+
+h1{
+	color: royalblue;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 600;	
+}
+
+h2{
+	color: royalblue;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+a:hover {
+	background-color: lightskyblue;
+	color: royalblue;
+}
+
+
+
+/* Custom design with class */
+
+
+.container {
+	width: 700px;
+	margin: 70px auto;
+}
+
+
+@media (max-width: 500px){
+	.container{
+		max-width: 400px;
+	}
+}
+
+@media (max-width: 760px){
+	.container{
+		max-width: 600px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+	font-family: 'roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 550;
+	font-size: 14px;
+	background-color: royalblue;
+	color: white;
+	padding: 10px 17px;
+	border-radius: 7px;
+}
+
+.btn-blue:hover {
+	background-color: indianred;
+	color: white;
+}
+
+
+.list-inline {
+	text-decoration: none;
+	font-family: 'roboto', serif;
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 16px;
+}
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+.btn-yellow {
+	font-family: 'roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 550;
+	font-size: 14px;
+	background-color: rgb(254, 221, 3);
+	color: white;
+	padding: 10px 17px;
+	border-radius: 7px;
+}
+
+.btn-yellow:hover {
+	background-color: orange;
+	color: white;
+}
+
+
+.btn-purple {
+	font-family: 'roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 550px;
+	font-size: 14px;
+	background-color: mediumpurple;
+	color: white;
+	padding: 7px 14px;
+	border-radius: 7px;
+}
+
+.btn-purple:hover{
+	background-color: black;
+	color: white;
+}
+
+
+.btn-blue2{
+	font-family: 'roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 550px;
+	font-size: 14px;
+	background-color: rgb(25, 119, 242);
+	color: white;
+	padding: 7px 14px;
+	border-radius: 7px;
+}
+
+.btn-blue2:hover{
+	background-color: black;
+	color: white;
+}
+
+
+.btn-red{
+	font-family: 'roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 550px;
+	font-size: 14px;
+	background-color: rgb(196, 0, 124);
+	color: white;
+	padding: 7px 14px;
+	border-radius: 7px;
+}
+
+.btn-red:hover{
+	background-color: black;
+	color: white;
+}
+
